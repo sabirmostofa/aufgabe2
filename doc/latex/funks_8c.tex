@@ -1,0 +1,141 @@
+\hypertarget{funks_8c}{\section{funks.\-c File Reference}
+\label{funks_8c}\index{funks.\-c@{funks.\-c}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$time.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}funks.\-h\char`\"{}}\\*
+Include dependency graph for funks.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{funks_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{funks_8c_a15e600f7597da0a420c918ef3d9d8195}{initialisiere\-\_\-zufallszahlengenerator} (void)
+\item 
+void \hyperlink{funks_8c_a64a7f63d721ff3ebcf739ad30a51f588}{zeig\-\_\-einleitung} ()
+\item 
+int \hyperlink{funks_8c_a59450f41ec4c9e9061c19fc494e0e804}{liefere\-\_\-ganze\-\_\-zufallszahl} (int min, int max)
+\item 
+void \hyperlink{funks_8c_ac27a7d9c3a7919438af81b6ee92d73b3}{flush\-\_\-input} ()
+\item 
+int \hyperlink{funks_8c_a5ce9092382502c0064bd90967ad97e42}{nimm\-\_\-eingabe} (int versuch)
+\item 
+void \hyperlink{funks_8c_a7d181bc53756dba5b3084ea4447a6ca8}{zeige\-\_\-erfolg\-\_\-text} (int versuch)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{funks_8c_ac27a7d9c3a7919438af81b6ee92d73b3}{\index{funks.\-c@{funks.\-c}!flush\-\_\-input@{flush\-\_\-input}}
+\index{flush\-\_\-input@{flush\-\_\-input}!funks.c@{funks.\-c}}
+\subsubsection[{flush\-\_\-input}]{\setlength{\rightskip}{0pt plus 5cm}void flush\-\_\-input (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{funks_8c_ac27a7d9c3a7919438af81b6ee92d73b3}
+löscht input buffer
+
+
+\begin{DoxyParams}{Parameters}
+{\em @return} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{funks_8c_a15e600f7597da0a420c918ef3d9d8195}{\index{funks.\-c@{funks.\-c}!initialisiere\-\_\-zufallszahlengenerator@{initialisiere\-\_\-zufallszahlengenerator}}
+\index{initialisiere\-\_\-zufallszahlengenerator@{initialisiere\-\_\-zufallszahlengenerator}!funks.c@{funks.\-c}}
+\subsubsection[{initialisiere\-\_\-zufallszahlengenerator}]{\setlength{\rightskip}{0pt plus 5cm}void initialisiere\-\_\-zufallszahlengenerator (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{funks_8c_a15e600f7597da0a420c918ef3d9d8195}
+Zeit initialization
+
+
+\begin{DoxyParams}{Parameters}
+{\em @return} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{funks_8c_a59450f41ec4c9e9061c19fc494e0e804}{\index{funks.\-c@{funks.\-c}!liefere\-\_\-ganze\-\_\-zufallszahl@{liefere\-\_\-ganze\-\_\-zufallszahl}}
+\index{liefere\-\_\-ganze\-\_\-zufallszahl@{liefere\-\_\-ganze\-\_\-zufallszahl}!funks.c@{funks.\-c}}
+\subsubsection[{liefere\-\_\-ganze\-\_\-zufallszahl}]{\setlength{\rightskip}{0pt plus 5cm}int liefere\-\_\-ganze\-\_\-zufallszahl (
+\begin{DoxyParamCaption}
+\item[{int}]{min, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)}}\label{funks_8c_a59450f41ec4c9e9061c19fc494e0e804}
+Liefert eine ganze zufallszahl
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & unten grenze \\
+\hline
+{\em max} & obere grenze \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+eine random Zahl 
+\end{DoxyReturn}
+\hypertarget{funks_8c_a5ce9092382502c0064bd90967ad97e42}{\index{funks.\-c@{funks.\-c}!nimm\-\_\-eingabe@{nimm\-\_\-eingabe}}
+\index{nimm\-\_\-eingabe@{nimm\-\_\-eingabe}!funks.c@{funks.\-c}}
+\subsubsection[{nimm\-\_\-eingabe}]{\setlength{\rightskip}{0pt plus 5cm}int nimm\-\_\-eingabe (
+\begin{DoxyParamCaption}
+\item[{int}]{versuch}
+\end{DoxyParamCaption}
+)}}\label{funks_8c_a5ce9092382502c0064bd90967ad97e42}
+Nimmt die Eingabe, wenn falsch ist, wird nochmal angerufen
+
+
+\begin{DoxyParams}{Parameters}
+{\em versuch} & Anzahl der Versuche\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+eigabe eingabe zahl 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{funks_8c_a5ce9092382502c0064bd90967ad97e42_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{funks_8c_a64a7f63d721ff3ebcf739ad30a51f588}{\index{funks.\-c@{funks.\-c}!zeig\-\_\-einleitung@{zeig\-\_\-einleitung}}
+\index{zeig\-\_\-einleitung@{zeig\-\_\-einleitung}!funks.c@{funks.\-c}}
+\subsubsection[{zeig\-\_\-einleitung}]{\setlength{\rightskip}{0pt plus 5cm}void zeig\-\_\-einleitung (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{funks_8c_a64a7f63d721ff3ebcf739ad30a51f588}
+Zeigt einleitung
+
+
+\begin{DoxyParams}{Parameters}
+{\em @return} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{funks_8c_a7d181bc53756dba5b3084ea4447a6ca8}{\index{funks.\-c@{funks.\-c}!zeige\-\_\-erfolg\-\_\-text@{zeige\-\_\-erfolg\-\_\-text}}
+\index{zeige\-\_\-erfolg\-\_\-text@{zeige\-\_\-erfolg\-\_\-text}!funks.c@{funks.\-c}}
+\subsubsection[{zeige\-\_\-erfolg\-\_\-text}]{\setlength{\rightskip}{0pt plus 5cm}void zeige\-\_\-erfolg\-\_\-text (
+\begin{DoxyParamCaption}
+\item[{int}]{versuch}
+\end{DoxyParamCaption}
+)}}\label{funks_8c_a7d181bc53756dba5b3084ea4447a6ca8}
+Wenn mann die Zahl trifft, wird den Text gezeigt
+
+
+\begin{DoxyParams}{Parameters}
+{\em versuch} & Anzahl der versuche\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
